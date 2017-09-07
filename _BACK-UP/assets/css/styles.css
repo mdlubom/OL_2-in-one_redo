@@ -1,0 +1,207 @@
+/* Container */
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    float: left;
+    line-height: 30px;
+}
+
+/* Header */
+.header{
+	width: 100%;
+	display: block;
+}
+
+
+.headerImage{
+
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+.headerLogo{
+	float: left;
+	padding: 10px 200px;
+
+}
+.navInlinement{
+display: inline;
+
+}
+/* nav links*/
+nav ol {
+
+    list-style-type: none;
+    margin: 0;
+    padding-right: 100px;
+    overflow: auto;
+    float: right;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    padding-left: 10px;
+    padding-top:  25px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* page content wrapper*/
+.content{
+	clear: both;
+	width: 100%;
+	text-align: justify;
+	box-sizing: border-box;
+	padding: 0px 200px 0px 260px;
+}
+/*Savings section heading*/
+.savingsHeading{
+	clear: both;
+	/*display: inline-block;*/
+	text-align: center;
+
+}
+.textGreen{
+	color: rgb(0,134,112);
+
+}
+.heading2-in-one{
+	color: rgb(0,134,112);
+	font-size: 40px;
+
+}
+
+/* image and pocket information*/
+.imageAndInfo{
+
+	display: inline-block;
+	width: 75%;
+    padding-bottom: 10px;
+	}
+.image{
+
+	width: 15%;
+	height: auto;
+
+}
+.explanation{
+	clear: both;
+    width: 80%;
+    float: right;
+    overflow: auto;
+    text-align: justify;
+   
+}
+/* Standard and cpmprensive+ plan */
+.s-and-m-content{
+	clear: both;
+    width: 70%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px 100px 0 0px;
+    overflow: auto;
+
+}
+.s-and-m-plan{
+	background-color: rgb(240,240,240);
+	display: block;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 20px 200px 100px;
+	overflow: auto;
+
+}
+.s-and-m-pinkBox{
+	width: 30%;
+	height: auto;
+	display: block;
+	text-align: center;
+	background-color: 	rgb(156,0,89);
+	overflow: auto;
+	padding: 15px 7px;
+	margin: 0 250px;
+	color: white;
+
+}
+/*end of Standard and comprensive+ plan */
+
+/* the key benefits heading*/
+
+
+.pinkBox{
+
+	width: 30%;
+	height: auto;
+	display: block;
+	text-align: center;
+	background-color: 	rgb(156,0,89);
+	overflow: auto;
+	padding: 15px 7px;
+	margin: 0 450px;
+	color: white;
+
+}
+/* key benefits explanation and image*/
+
+.keyBenefits{
+
+display: block;
+float: left;
+width: 100%;
+background-color: rgb(0,134,112);
+height: auto;
+margin: 0;
+color: white;
+padding: 60px 100px;
+overflow: auto;
+
+}
+
+/* More4U */
+/* more4U heading*/
+.logoAndText{
+	padding-top: 40px;
+	color: rgb(0,134,112);
+	font-size: 44px;
+	text-align: center;
+
+}
+.more4ULastStatement{
+	width: 100%;
+	display: inline-block;
+	text-align: center;;
+}
+/*Footer*/
+.footer{
+	display: block;
+ 	float: left;
+	width: 100%;
+	background-color: rgb(0,134,112);
+ 	height: auto
+	margin: 0;
+	text-align: center;
+	color: white;
+	padding: 30px 70px 30px 10px;
+}
+.footerName{
+	display: inline-block;
+	height: 24px;
+
+
+}
+.copyright{
+	display: inline-block;
+
+}
