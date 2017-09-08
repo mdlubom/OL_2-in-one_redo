@@ -1,4 +1,7 @@
 /* elements */
+* {
+    box-sizing: border-box;
+}
 strong{
 	font-weight: bold;
 }
@@ -8,9 +11,10 @@ strong{
     margin: 0 auto;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: auto;
+    overflow: hidden;
     display: block; 
     color: black;
+    font-size: 20px;
 }
 /* clear-fixer*/
 .clear_fixer{
@@ -19,9 +23,11 @@ strong{
 /* content page container*/
 .content{
 	display: block;
-	box-sizing: border-box;
 	padding: 70px 200px 0 200px;
 	line-height: 20px;
+}
+.top_image{
+	width: 100%;
 }
 /* nav links and header_logo */
 .nav_links{
@@ -36,7 +42,6 @@ strong{
 	display: block;
 	background-image: url(../images/bk-1.png);
 	height: 780px;
-
 }
 nav ol{
 	float: right;
@@ -49,6 +54,7 @@ nav li a{
  	display: block;
  	padding: 20px 0;
  	color: black;
+ 	font-size: 14px;
 }
 nav ol li .download{
 	color: rgb(0,133,112);
@@ -75,22 +81,27 @@ nav ol li .download{
     padding-left: 100px;
 }
 .image_and_info img{
-	max-width: 20%;
 	float: left;
 }
 .info{
     width: 80%;
     float: right;
     text-align: justify;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 27px;
 }
 .info h4{
 	color: rgb(0,98,77); 
 	font-size: 20px;
+	padding-right: 20px;
+
 }
 .info ul{
-	list-style-type: circle;
+	margin-left: 20px;
+    padding-top: 5px;
+}
+.info ul li{
+	list-style-type: disc;
 }
 /* benefits*/
 footer,.benefits{
@@ -113,20 +124,18 @@ footer,.benefits{
 	text-align: center;
 	background-color: 	rgb(157,0,89);
 	overflow: auto;
-	padding: 15px 7px;
+	padding: 25px 30px;
 	margin: 60px 450px 0 450px;
 	color: white;
 }
 .benefits .image_and_info{
-	display: block;
-	box-sizing: border-box;
-	padding: 35px 200px 10px 300px;
-	line-height: 20px;
-	height: auto;
+    box-sizing: border-box;
+    padding: 35px 200px 101px 300px;
+    line-height: 20px;
+    height: auto;
 }
 .table{
-	float: left;
-	padding: 20px 0 0 80px;
+	padding-top: 45px;
 }
 /* more4u */
 .more{
@@ -142,38 +151,45 @@ footer,.benefits{
 .more .more_heading .logo_text {
 	box-sizing: border-box;
     color: rgb(0,134,112);
-    font-size: 45px;
-    text-align: center;
+  	font-size: 42px;
     line-height: 45px;
+    text-align: center;
+    padding-right: 1px;
 }
-.more .more_heading p img{
+.more .more_heading .logo_text img{
 	float: left;
-	padding-top: 5px;
+    padding-top: 5px;
+    padding-right: 8px;
 }
-.more_heading h4{
-	font-size: 20px;
-	margin: 15px 10px 70px 0;
+.more .more_heading .logo{
+	font-size: 22px;
+	padding-left: 15px;
+    margin: 18px 2px 70px 0;
 }
-.imag_and_info{
-	clear: both;
+.more_imag_and_info{
 	display: block;
-	padding: 15px 0 0 25px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+    clear: both;
 }
-.imag_and_info img{
+.more_imag_and_info img{
 	float: left;
-	padding-bottom: 10px;
 }
-.imag_and_info p{
-	float: right;
-	width: 85%;
-	padding-top: 25px;
+.more_info{
+	width: 80%;
+    float: right;
+    text-align: justify;
+    font-size: 17px;
+    padding-top: 20px;
+    margin-right: 50px;
+
 }
 .more .ending_statement{
+    clear:both;
 	width: 100%;
-	padding-right: 300px;
+	padding-top: 60px;
     text-align: center;
-    font-size: 13px;
-
+    font-size: 14px;
 }
 /*footer*/
 footer{
